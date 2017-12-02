@@ -3,3 +3,4 @@ site_name: 我的文档
 pages:
 - Home: index.md
 - About: about.md
+- Jenkins: jenkins.md
