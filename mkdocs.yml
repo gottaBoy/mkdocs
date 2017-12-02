@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: 我的文档
+# theme: readthedocs
+pages:
+- Home: index.md
+- About: about.md
