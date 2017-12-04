@@ -4,3 +4,4 @@ pages:
 - Home: index.md
 - About: about.md
 - Jenkins: jenkins.md
+- Shared-api: shared-api.md
