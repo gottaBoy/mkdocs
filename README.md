@@ -26,3 +26,37 @@ https://www.cnblogs.com/eedc/p/6168430.html
 # pip 升级
   `python -m pip install --upgrade pip`
   `pip install mkdcos`
+  
+# git使用
+## Git global setup
+```
+git config --global user.name "minyi"
+git config --global user.email "minyi@cargocn.com"
+```
+## Create a new repository
+```
+  git clone https://minyi@git.cargocn.cn/document/cargocn-cloud-doc.git
+  cd cargocn-cloud-doc
+  touch README.md
+  git add README.md
+  git commit -m "add README"
+  git push -u origin master
+```
+
+## Existing folder
+```
+  cd existing_folder
+  git init
+  git remote add origin https://minyi@git.cargocn.cn/document/cargocn-cloud-doc.git
+  git add .
+  git commit
+  git push -u origin master
+```
+
+## Existing Git repository
+```
+  cd existing_repo
+  git remote add origin https://minyi@git.cargocn.cn/document/cargocn-cloud-doc.git
+  git push -u origin --all
+  git push -u origin --tags
+```
